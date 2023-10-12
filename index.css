@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    list-style: none;
+}
+
+#viewResult {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.flex-container {
+    height: 40vh;
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputOne {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.inputOne button {
+    padding: 3px 3px;
+}
+
+.inputOne input {
+    height: 25px;
+    padding: 5px;
+}
+
+.searchDiv,
+.add-data {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+#ulList {
+    height: 80%;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.viewContacts {
+    height: 40vh;
+    width: 50%;
+    margin: auto;
+}
+
+.viewContacts h3 {
+    text-align: center;
+    font-weight: 100;
+    color: blue;
+    cursor: pointer;
+}
+
+.viewContacts #viewResult {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    overflow-y: scroll;
+    display: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flex input, button{
+    height: 25px;
+    padding: 5px;  
+}

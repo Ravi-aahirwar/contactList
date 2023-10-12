@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact list</title>
+    <script src="./index.html"></script>
+</head>
+
+<body>
+    <main>
+        <div class="flex-container">
+            <div class="searchDiv">
+                <div class="inputOne">
+                    <input type="text" autocomplete="off" id="handleInput" placeholder="search for contacts" />
+                    <button id="handleBtn">search</button>
+                </div>
+                <ul id="ulList"></ul>
+            </div>
+            <div class="add-data">
+                <div class="add-input flex">
+                    <input type="text" autocomplete="off"  name="name" placeholder="Enter name" id="input1">
+                    <input type="text" autocomplete="off" name="location" placeholder="Enter location/state" id="input2">
+                    <input type="number" autocomplete="off" name="mobNumber" placeholder="Enter Number" id="input3">
+                    <button onclick="storeData()">Add to contact</button>
+                </div>
+            </div>
+        </div>
+        <div class="viewContacts">
+            <h3 id="blockDispaly">view all contacts</h3>
+            <ul id="viewResult">
+                <!--  user data  -->
+            </ul>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
